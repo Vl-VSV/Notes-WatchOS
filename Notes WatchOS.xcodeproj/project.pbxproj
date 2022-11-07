@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4EC2314291825FD00989E02 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC2313291825FD00989E02 /* Note.swift */; };
 		A4F082FB291811A600853767 /* Notes WatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A4F082FA291811A600853767 /* Notes WatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A4F08300291811A600853767 /* Notes_WatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F082FF291811A600853767 /* Notes_WatchOSApp.swift */; };
 		A4F08302291811A600853767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F08301291811A600853767 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A4EC2313291825FD00989E02 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		A4F082F4291811A600853767 /* Notes WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F082FA291811A600853767 /* Notes WatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes WatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F082FF291811A600853767 /* Notes_WatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_WatchOSApp.swift; sourceTree = "<group>"; };
@@ -58,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4EC2311291825C200989E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4F08301291811A600853767 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4EC2312291825E300989E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC2313291825FD00989E02 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A4F082ED291811A600853767 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				A4F082FF291811A600853767 /* Notes_WatchOSApp.swift */,
-				A4F08301291811A600853767 /* ContentView.swift */,
+				A4EC2312291825E300989E02 /* Model */,
+				A4EC2311291825C200989E02 /* View */,
 				A4F08303291811A700853767 /* Assets.xcassets */,
 				A4F08305291811A700853767 /* Preview Content */,
 			);
@@ -155,6 +174,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 				Base,
 			);
 			mainGroup = A4F082ED291811A600853767;
@@ -194,6 +214,7 @@
 			files = (
 				A4F08302291811A600853767 /* ContentView.swift in Sources */,
 				A4F08300291811A600853767 /* Notes_WatchOSApp.swift in Sources */,
+				A4EC2314291825FD00989E02 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
